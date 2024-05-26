@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactsite/static/css/main.fd859a1f.css",
+    "main.js": "/reactsite/static/js/main.6f9050d9.js",
+    "static/media/lion.png": "/reactsite/static/media/lion.6f395e698a1bf4acd7c7.png",
+    "index.html": "/reactsite/index.html",
+    "main.fd859a1f.css.map": "/reactsite/static/css/main.fd859a1f.css.map",
+    "main.6f9050d9.js.map": "/reactsite/static/js/main.6f9050d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd859a1f.css",
+    "static/js/main.6f9050d9.js"
+  ]
+}
