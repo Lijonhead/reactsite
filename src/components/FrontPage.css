@@ -26,7 +26,39 @@ header {
     z-index: 1000;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 1rem;
+}
 
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-align: center; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #2c3e50; 
+    border-radius: 4px;
+}
+
+nav ul li.active a {
+    background-color: #fff;
+    color: #2c3e50; 
+    border-radius: 4px;
+    font-weight: bold;
+}
 
 main {
     padding: 2rem;
@@ -48,7 +80,7 @@ h1 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 8px;
 }
@@ -181,12 +213,3 @@ body.show-back-to-top .back-to-top {
     display: block;
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-
-    main {
-        margin: 1rem;
-    }
-}
